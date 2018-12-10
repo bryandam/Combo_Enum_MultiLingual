@@ -44,6 +44,11 @@ namespace BindingEnums
             bitlocker_status.Name = "Status";
             bitlocker_status.Type = typeof(Status);
             InputParameterList.Add(bitlocker_status);
+
+            InputParameter bitlocker_foo = new InputParameter();
+            bitlocker_foo.Name = "Foo";
+            bitlocker_foo.Type = typeof(Foo);
+            InputParameterList.Add(bitlocker_foo);
         }
     }
 }
