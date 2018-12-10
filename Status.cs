@@ -17,9 +17,9 @@ namespace BindingEnums
     [TypeConverter(typeof(EnumDescriptionTypeConverter))]
     public enum Foo
     {
-        [Display(Name = nameof(Resources.EnumResources.Good), ResourceType = typeof(Resources.EnumResources))]
+        [Display(Name = nameof(Resources.EnumResources.Foo), ResourceType = typeof(Resources.EnumResources))]
         Foo,
-        [Display(Name = nameof(Resources.EnumResources.Better), ResourceType = typeof(Resources.EnumResources))]
+        [Display(Name = nameof(Resources.EnumResources.Bar), ResourceType = typeof(Resources.EnumResources))]
         Bar
     }
 }
